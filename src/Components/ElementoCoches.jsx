@@ -47,7 +47,7 @@ const ElementoCoches = (props) => {
   return (
     <div className="card">
       <img
-        src={process.env.REACT_APP_BACKEND_URL + `${props.element.imagen.url}`}
+        src={coche.imagen}
         alt="coches"
       />
       <div className="card-content">

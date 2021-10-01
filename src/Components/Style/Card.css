@@ -24,8 +24,7 @@ h3 {
 }
 
 button {
-    background-color: #ff3d54;
-    background-image: linear-gradient(270deg, #ff3d54 0%, #ff8f70 100%);
+    background-image: linear-gradient(270deg, #ff3d54d7 0%, #ff8f70d5 100%);
     border: none;
     width: 8rem;
     height: 3rem;
@@ -34,6 +33,5 @@ button {
 }
 
 button:hover {
-    background-color: #f10f2a;
-    background-image: linear-gradient(270deg, #f10f2a 0%, #fa5324 100%);
+    background-image: linear-gradient(270deg, #f10f29c9 0%, #fa5224dc 100%);
 }
