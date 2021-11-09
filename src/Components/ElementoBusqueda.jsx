@@ -47,14 +47,14 @@ const ElementoBusqueda = (props) => {
   return (
     <div className="card">
       <img
-        src={process.env.REACT_APP_BACKEND_URL + `${coche.imagen.url}`}
-        alt="coche"
+        src={coche.imagen}
+        alt="coches"
       />
       <div className="card-content">
-        <h3>Marca: {coche.marca}</h3>
-        <h3>Modelo: {coche.modelo}</h3>
-        <h3>Tipo: {coche.tipo}</h3>
-        <h3>Año: {coche.year}</h3>
+        <h3>Marca: <span>{coche.marca}</span></h3>
+        <h3>Modelo: <span>{coche.modelo}</span></h3>
+        <h3>Tipo: <span>{coche.tipo}</span></h3>
+        <h3>Año: <span>{coche.year}</span></h3>
         <button
           onClick={handleEliminar}
           value={nuevoEliminar}

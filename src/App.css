@@ -4,3 +4,11 @@ h1 {
     font-size: 2.5rem;
     padding: 1rem;
 }
+
+h2 {
+    color: #252525;
+}
+
+h2, h3 {
+    font-family: 'Roboto Slab', serif;
+}

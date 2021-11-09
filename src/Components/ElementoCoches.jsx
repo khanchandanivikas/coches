@@ -51,11 +51,11 @@ const ElementoCoches = (props) => {
         alt="coches"
       />
       <div className="card-content">
-        <h3>Id: {coche.id}</h3>
-        <h3>Marca: {coche.marca}</h3>
-        <h3>Modelo: {coche.modelo}</h3>
-        <h3>Tipo: {coche.tipo}</h3>
-        <h3>Año: {coche.year}</h3>
+        <h3>Id: <span>{coche.id}</span></h3>
+        <h3>Marca: <span>{coche.marca}</span></h3>
+        <h3>Modelo: <span>{coche.modelo}</span></h3>
+        <h3>Tipo: <span>{coche.tipo}</span></h3>
+        <h3>Año: <span>{coche.year}</span></h3>
         <button
           onClick={handleEliminar}
           value={nuevoEliminar}
